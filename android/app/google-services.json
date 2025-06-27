@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "886666155527",
+    "project_id": "cinemate-6bf27",
+    "storage_bucket": "cinemate-6bf27.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886666155527:android:f5a31c114d459009257ca2",
+        "android_client_info": {
+          "package_name": "com.nikelarge.cinemate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZAu4zXFtut7UfGecHG7nWWJZZ2hP7iV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
