@@ -58,7 +58,7 @@ class SupabaseAuthRepo implements AuthRepo {
         'id': user.id,
         'email': email,
         'name': name,
-        'bio': 'adım kahtan',
+        'bio': 'Merhaba ben film izlemeyi severim.',
         'business': '',
         'profile_image': '',
         'is_premium': false,
@@ -73,7 +73,7 @@ class SupabaseAuthRepo implements AuthRepo {
         profileImageUrl: '',
       );
     } catch (e) {
-      throw Exception("Kayıt Hatası: $e");
+      throw Exception("Kayıt Hatası: Girdiğiniz bilgileri kontrol edip tekrar deneyiniz");
     }
   }
 

@@ -166,6 +166,7 @@ Future<List<CommentModel>> fetchComments(String movieId) async {
   final supabase = Supabase.instance.client;
 
   try {
+    
     final response = await supabase
         .from('comments')
         .select('*, profiles(name, profile_image)')
